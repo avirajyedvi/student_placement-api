@@ -1,0 +1,20 @@
+
+<html>
+<body>
+<h1>Enter Student Details Below::::::</h1></br>
+<h2>HI I am here </h2>
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+<form method= "post" action="/submit">  
+<label > CGPA ::  </label>
+<input type ="text" id="cgpa" name="cgpa" value="0"></br>
+<label> IQ ::  </label>
+<input type ="text" id="iq" name="iq" name="iq" value="0"></br>
+<label> Profile Score ::  </label>
+<input type ="text" id="profile_score" name="profile_score" value="0"></br></br></br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
